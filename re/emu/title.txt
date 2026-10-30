@@ -1,0 +1,10 @@
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+shot title
+quit

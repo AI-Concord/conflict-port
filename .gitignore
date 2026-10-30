@@ -1,0 +1,25 @@
+.DS_Store
+build/
+dist/
+*.o
+*.dSYM/
+# programs built from the sources
+port/emu_h
+port/emu_cov
+port/conflict_headless
+port/conflict_cov
+re/emu/emu
+re/winshot
+# test runs and their output (frames, memory dumps, coverage)
+re/emu/c2_orig*/
+re/emu/c2_port*/
+re/emu/c_orig*/
+re/emu/c_port*/
+re/emu/run*/
+re/emu/cov/
+re/emu/*.ppm
+re/emu/*.mem
+re/emu/*.profraw
+re/emu/*.profdata
+re/ghidra/proj/
+re/emu/*.log

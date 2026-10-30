@@ -1,0 +1,17 @@
+shot a0
+key enter
+shot a1
+key enter
+shot a2
+key enter
+shot a3
+key enter
+shot a4
+key enter
+shot a5
+key enter
+shot a6
+key down
+shot a7
+key enter
+shot a8

@@ -1,0 +1,672 @@
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+key enter
+key end
+key enter
+shot t1
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m00
+dump w00
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m01
+dump w01
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m02
+dump w02
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m03
+dump w03
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m04
+dump w04
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m05
+dump w05
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m06
+dump w06
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m07
+dump w07
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m08
+dump w08
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m09
+dump w09
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m10
+dump w10
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m11
+dump w11
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m12
+dump w12
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m13
+dump w13
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m14
+dump w14
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m15
+dump w15
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m16
+dump w16
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m17
+dump w17
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m18
+dump w18
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m19
+dump w19
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m20
+dump w20
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m21
+dump w21
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m22
+dump w22
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m23
+dump w23
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m24
+dump w24
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m25
+dump w25
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m26
+dump w26
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m27
+dump w27
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m28
+dump w28
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m29
+dump w29
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m30
+dump w30
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m31
+dump w31
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m32
+dump w32
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m33
+dump w33
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m34
+dump w34
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m35
+dump w35
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m36
+dump w36
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m37
+dump w37
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m38
+dump w38
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m39
+dump w39
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m40
+dump w40
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m41
+dump w41
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m42
+dump w42
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m43
+dump w43
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m44
+dump w44
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m45
+dump w45
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m46
+dump w46
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m47
+dump w47
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m48
+dump w48
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m49
+dump w49
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m50
+dump w50
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m51
+dump w51
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m52
+dump w52
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m53
+dump w53
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m54
+dump w54
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m55
+dump w55
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m56
+dump w56
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m57
+dump w57
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m58
+dump w58
+poke a0ce 1
+poke a0d4 1
+poke a0d6 1
+poke a0da 1
+poke a080 1
+poke a0c2 1
+poke a0ae 1
+key end
+key enter
+shot m59
+dump w59

@@ -1,0 +1,120 @@
+# Zortech software floating point: doubles in AX:BX:CX:DX, second operand on the stack (callee pops)
+2007:0167 dsub ret=double@AX:BX:CX:DX b=double@AX:BX:CX:DX a=double@stack4 purge=8
+2007:01b9 dadd ret=double@AX:BX:CX:DX b=double@AX:BX:CX:DX a=double@stack4 purge=8
+2007:0390 ddiv ret=double@AX:BX:CX:DX b=double@AX:BX:CX:DX a=double@stack4 purge=8
+2007:04d6 dmul ret=double@AX:BX:CX:DX b=double@AX:BX:CX:DX a=double@stack4 purge=8
+2007:032f dcmp ret=int@DI b=double@AX:BX:CX:DX a=double@stack4 purge=8
+2007:0686 int2dbl ret=double@AX:BX:CX:DX v=int@AX purge=0
+2007:06b6 uns2dbl ret=double@AX:BX:CX:DX v=uint@AX purge=0
+2007:0747 dbl2int ret=int@AX v=double@AX:BX:CX:DX purge=0
+2007:079e dbl2long ret=long@DX:AX v=double@AX:BX:CX:DX purge=0
+2007:07f6 dbl2flt ret=float@DX:AX v=double@AX:BX:CX:DX purge=0
+2007:06fa flt2dbl ret=double@AX:BX:CX:DX v=float@DX:AX purge=0
+# C runtime
+20d3:0004 strcat far ret=char* char* char*
+20d1:0000 strcpy far ret=char* char* char*
+2169:000e strlen far ret=int char*
+21aa:0008 strncpy far ret=char* char* char* uint
+216b:00fb fwrite far ret=uint char* uint uint int*
+216b:004f fread far ret=uint char* uint uint int*
+2186:0007 fclose far ret=int int*
+2186:005d fopen far ret=int* char* char*
+21ae:0059 fgetc far ret=int int*
+216b:0009 puts far ret=int char*
+21b8:003d malloc far ret=char* uint
+20ba:0000 setjmp far ret=int int*
+20ba:002c longjmp far ret=void int* int
+20cd:000c clock_cs far ret=int
+20ca:0003 rand far ret=int
+20ca:002a srand far ret=void uint
+21d3:0015 int86 far ret=int int int* int*
+20a2:0174 exit0 far ret=void noreturn
+# graphics library public entry points
+1f39:06dd gfx_copy_from_page far ret=void x1=int x2=int y1=int y2=int
+1f39:0746 gfx_draw_picture far ret=void int
+1f39:0771 gfx_init far ret=int
+1f39:0783 gfx_load_pictures far ret=int
+1f39:078b gfx_load_maps far ret=int
+1f39:07df gfx_draw_icon far ret=void char*
+1f39:07f3 gfx_clear far ret=void int
+1f39:0801 gfx_moveto far ret=int x=int y=int
+1f39:0813 gfx_plot far ret=int x=int y=int
+1f39:0827 gfx_hline far ret=void x1=int x2=int y=int color=int
+1f39:0858 gfx_vline far ret=void y1=int y2=int x=int color=int
+1f39:0889 gfx_recolor far ret=void x=int y=int w=int h=int a=int b=int
+1f39:08e4 gfx_text far ret=void char*
+1f39:08f8 gfx_text_big far ret=void char*
+1f39:090c gfx_flood far ret=void x=int y=int
+1f39:091e gfx_fillrect far ret=void x1=int x2=int y1=int y2=int
+1f39:0937 gfx_draw_map far ret=void int
+1f39:09e9 gfx_text_width far ret=int char*
+1f39:0a58 gfx_getkey far ret=int
+# game functions (ported)
+1000:0010 rnd far ret=int int
+1000:00b3 draw_box far ret=void int int int int
+1000:0286 draw_titled_box far ret=void int int int int char*
+1000:0357 contains4 far ret=int char* char*
+1000:03bd str_overlay far ret=void char* char* int
+1000:03e5 squeeze_spaces far ret=void char*
+1000:0444 wait_key far ret=int
+1000:0479 text_mode far ret=void
+1000:0491 show_status_chart far ret=void
+1000:0739 calibrate_delay far ret=void
+1000:07fc load_fonts far ret=void
+1000:0a7c text_box far ret=void int int int int char* char* char*
+1000:0d24 menu far ret=int int int int int char* int
+1000:0e13 menu_item far ret=void int int int char*
+1000:1044 menu_select far ret=int int int
+1000:14bc draw_newspapers far ret=void
+1000:2058 intro_screen far ret=void
+1000:2337 title_screen far ret=void
+1000:245c thinking_start far ret=void
+1000:24a1 thinking_dot far ret=void
+1000:24c2 icon_wallpaper far ret=void int
+1000:25b3 save_game far ret=void
+1000:29ed load_game far ret=void
+1000:2e39 new_game_init far ret=void
+1000:3036 index_news_by_country far ret=void
+1000:3138 country_turn far ret=void int
+1000:3897 sour_relations far ret=void int int int
+1000:3a23 seek_alliance far ret=void int int
+1000:3d5e map_overlay_libya far ret=void
+1000:3e40 map_overlay_egypt far ret=void
+1000:3f03 map_overlay_syria far ret=void
+1000:3fc9 map_overlay_israel far ret=void
+1000:4126 map_nuke_site far ret=void int int int int int int int int int
+1000:42a5 map_fallen_marker far ret=void int int int
+1000:42f5 map_war_marker far ret=void int int int int int
+1000:4384 flash_war_icon far ret=void int int
+1000:44d9 flash_nuke_icon far ret=void int int int
+1000:4652 month_name far ret=char* int
+1000:4675 monthly_briefing far ret=void
+1000:4f69 recolor_fallen far ret=void
+1000:501c advice_text far ret=char* int
+1000:502c foreign_office_comment far ret=void
+1000:549b country_screen far ret=void int
+1000:56c7 world_events far ret=void
+1000:58be government_falls far ret=void int
+1000:595d absorb_forces far ret=void int
+1000:5a52 redeploy_border_troops far ret=void
+1000:5aa5 commit_forces far ret=void int int
+1000:5ec3 consider_nuclear_strike far ret=void int int
+1000:5fad resolve_war far ret=void int int int int int
+1000:6c39 add_headline far ret=void char* int int
+1000:6cb7 add_story far ret=void char* int int
+1000:6d35 expand_template far ret=void char* int int char*
+1000:6e8e retarget far ret=void int
+1000:b8ab draw_unit_icon far ret=void char*
+1d93:1996 int_to_str far ret=void int char*
+# remaining game functions: argument counts from call sites
+1000:61b0 diplomacy_screen far ret=void int
+1000:6fa6 intel_screen far ret=void int
+1000:b5b5 game_over far ret=void int int int int int
+1000:ad9b nuclear_strike far ret=void int int
+1000:ae6c war_ends far ret=void int int
+1d93:0007 relations_changed far ret=void int int
+1d93:037b unrest_news far ret=void int
+1d93:0468 relations_news far ret=void int int
+1d93:0b2a world_news far ret=void int
+1d93:111f yearly_review far ret=void int
+1d93:0ad0 FUN_1d93_0ad0 far ret=void int
